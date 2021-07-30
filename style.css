@@ -1,0 +1,162 @@
+/*desktop-768px
+  mobile-320px
+  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%; /*10px = 1 rem*/
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  line-height: 2;
+  min-width: 320px;
+  color: #323541;
+}
+
+/**** Header ****/
+
+.header {
+  background-color: #323541;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/**** Section - Sign Up for Newsletter ****/
+
+.section {
+  text-align: center;
+  margin: 1rem;
+  border-bottom: solid 0.2rem rgb(50, 53, 65);
+}
+
+.section-heading {
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.section-para {
+  color: rgb(163, 163, 163);
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-line,
+.section-line-two {
+  display: block;
+}
+
+.section-line {
+  border-bottom: solid 0.35rem rgb(50, 53, 65);
+  margin-bottom: 0.1rem;
+}
+
+.section-line-two {
+  border-bottom: solid 0.2rem rgb(50, 53, 65);
+  margin-bottom: 2rem;
+}
+
+/**** Main ****/
+
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/**** Form Styles ****/
+
+label {
+  display: block;
+}
+
+label,
+.main-form-label {
+  font-size: 0.8rem;
+  color: rgb(114, 122, 150);
+  margin-bottom: 0.5rem;
+}
+
+input,
+select,
+textarea {
+  background-color: rgb(228, 234, 241);
+  color: rgb(114, 122, 150);
+  font-family: "Merriweather", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 2%;
+  margin-bottom: 1.5rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid #46698b;
+  background: #bbc7df;
+}
+
+textarea {
+  resize: none;
+}
+
+input#name::placeholder,
+input#email::placeholder {
+  text-align: right;
+  font-style: italic;
+  color: rgb(153, 159, 179);
+}
+
+/**** Fieldset and Legend ****/
+
+legend {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+/**** Radio Buttons and Checkbox ****/
+
+/**** Main - Buttons ****/
+.form-btn {
+  background-color: rgb(39, 187, 187);
+  color: #fff;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 2%;
+}
+
+/**** Footer ****/
+.footer {
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  color: rgb(153, 159, 179);
+  margin: 1rem 0 4rem 0;
+}
