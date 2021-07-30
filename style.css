@@ -193,7 +193,7 @@ input[type="checkbox"] {
   font-size: 1rem;
   font-style: italic;
   color: rgb(153, 159, 179);
-  margin: 2rem 0 4rem 0;
+  margin: 2rem 0 7rem 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -201,6 +201,10 @@ input[type="checkbox"] {
     margin: 0 auto;
     max-width: 75%;
     font-size: 0.8rem;
+  }
+
+  .wrapper {
+    max-width: 95%;
   }
 
   .main {
