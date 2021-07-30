@@ -108,6 +108,10 @@ textarea {
   margin-bottom: 1.5rem;
 }
 
+input[type="number"] {
+  width: 50%;
+}
+
 textarea {
   margin-bottom: 0.2rem;
 }
@@ -201,5 +205,39 @@ input[type="checkbox"] {
 
   .main {
     margin: 2rem 0;
+  }
+
+  fieldset:first-of-type {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  label {
+    width: 30%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select {
+    width: 70%;
+  }
+
+  input[type="number"] {
+    width: 20%;
+  }
+
+  .main-form-check {
+    margin-bottom: -1rem;
+  }
+
+  .main-form-flex {
+    margin-bottom: 1rem;
+  }
+
+  fieldset:last-of-type > label:last-of-type {
+    width: 100%;
   }
 }
